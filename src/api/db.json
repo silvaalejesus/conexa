@@ -1,0 +1,78 @@
+{
+  "professionals": [
+    {
+      "id": "1",
+      "full_name": "John Doe",
+      "profession": "Doctor",
+      "price_per_minute": 2.5,
+      "city_state": "New York, NY",
+      "reviews": [
+        {
+          "author": "Jane Smith",
+          "rating": 5,
+          "comment": "Excellent doctor!"
+        },
+        {
+          "author": "Peter Jones",
+          "rating": 4,
+          "comment": "Very helpful and knowledgeable."
+        }
+      ],
+      "photo": "https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
+      "service_description": "Psicólogo com sólida formação acadêmica e experiência em diversas abordagens terapêuticas, incluindo a terapia cognitivo-comportamental e a terapia humanista. Especialista em atender adultos e adolescentes, promovendo um espaço seguro para a autoexploração e o desenvolvimento emocional. Comprometido em ajudar os pacientes a entender e superar desafios psicológicos, promovendo bem-estar e autoestima.",
+      "schedule": [
+        {
+          "date": "2024-12-06",
+          "slots": [
+            {
+              "time": "9:00",
+              "available": true
+            },
+            {
+              "time": "9:30",
+              "available": false
+            }
+          ]
+        },
+        {
+          "date": "2024-12-07",
+          "slots": [
+            {
+              "time": "10:00",
+              "available": true
+            },
+            {
+              "time": "10:30",
+              "available": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "full_name": "Jane Smith",
+      "profession": "Lawyer",
+      "price_per_minute": 5.0,
+      "city_state": "Los Angeles, CA",
+      "reviews": [], 
+      "photo": "https://plus.unsplash.com/premium_photo-1689539137236-b68e436248de?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
+      "service_description": " Psiquiatra com ampla formação em medicina, com foco em diagnósticos e tratamentos de transtornos mentais. Experiente em terapias combinadas que incluem medicamentos e intervenções psicoterapêuticas. Dedica-se ao acompanhamento individualizado, buscando sempre o melhor manejo das condições psiquiátricas e o fortalecimento da saúde mental, com uma abordagem empática e respeitosa.",
+      "schedule": [
+        {
+          "date": "2024-12-06",
+          "slots": [
+            {
+              "time": "1:00",
+              "available": true
+            },
+            {
+              "time": "1:30",
+              "available": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
