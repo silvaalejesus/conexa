@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import ScheduleContext from "../context/ScheduleContext";
-import { formatAppointmentMessage } from "../utils/formatAppointmentMessage";
+import ScheduleContext from "../../context/Schedule/ScheduleContext";
+import { formatAppointmentMessage } from "../../utils/formatAppointmentMessage";
 
 const ScheduleButton = () => {
   const { selectedDate, selectedTime, onTimeSelect } =

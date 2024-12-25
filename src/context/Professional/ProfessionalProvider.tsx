@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Professional } from "../types";
+import { Professional } from "../../types";
 import ProfessionalContext from "./ProfessionalContext";
 
 interface ProfessionalProviderProps {

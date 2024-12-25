@@ -1,6 +1,6 @@
 import { addDays, startOfWeek } from "date-fns";
 import { useState } from "react";
-import { DaySchedule, TimeSlot } from "../types";
+import { DaySchedule, TimeSlot } from "../../types";
 import ScheduleContext from "./ScheduleContext";
 
 interface ScheduleProviderProps {

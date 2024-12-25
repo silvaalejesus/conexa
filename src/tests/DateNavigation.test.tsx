@@ -2,7 +2,7 @@ import { fireEvent, render } from "@testing-library/react";
 import { addDays } from "date-fns";
 import { afterEach, describe, expect, test, vi } from "vitest";
 import DateNavigation from "../components/DateNavigation";
-import ScheduleProvider from "../context/ScheduleProvider";
+import ScheduleProvider from "../context/Schedule/ScheduleProvider";
 import { DaySchedule } from "../types";
 
 const initialSchedule: DaySchedule[] = [

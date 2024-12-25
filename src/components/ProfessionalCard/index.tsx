@@ -1,6 +1,6 @@
 import { Star } from "lucide-react";
 import { useContext } from "react";
-import ProfessionalContext from "../context/ProfessionalContext";
+import ProfessionalContext from "../../context/Professional/ProfessionalContext";
 
 interface Props {
   professionalId: number;
@@ -8,9 +8,10 @@ interface Props {
 
 export function ProfessionalCard({ professionalId }: Props) {
   const { professionals } = useContext(ProfessionalContext);
-
+  console.log("professionals", professionals);
+  console.log("professionalId", professionalId);
   const professional = professionals.find(
-    (prof) => prof.id === Number(professionalId)
+    (prof) => Number(prof.id) === professionalId
   );
 
   if (!professional) {

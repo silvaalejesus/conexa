@@ -1,7 +1,7 @@
-import { CalendarHeader } from "./CalendarHeader";
-import DateNavigation from "./DateNavigation";
-import ScheduleButton from "./ScheduleButton";
-import { TimeSlots } from "./TimeSlots";
+import DateNavigation from "../DateNavigation";
+import { CalendarHeader } from "../Header";
+import ScheduleButton from "../ScheduleButton";
+import { TimeSlots } from "../TimeSlots";
 
 export function Calendar() {
   return (

@@ -1,7 +1,7 @@
 {
   "professionals": [
     {
-      "id": "1",
+      "id": 1,
       "full_name": "John Doe",
       "profession": "Doctor",
       "price_per_minute": 2.5,
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "id": "2",
+      "id": 2,
       "full_name": "Jane Smith",
       "profession": "Lawyer",
       "price_per_minute": 5.0,

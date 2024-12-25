@@ -1,6 +1,6 @@
 import { useContext, useEffect } from "react";
-import ScheduleContext from "../context/ScheduleContext";
-import { TimeSlot } from "../types";
+import ScheduleContext from "../../context/Schedule/ScheduleContext";
+import { TimeSlot } from "../../types";
 
 export function TimeSlots() {
   const {

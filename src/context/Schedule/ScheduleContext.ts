@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import { DaySchedule, TimeSlot } from "../types";
+import { DaySchedule, TimeSlot } from "../../types";
 
 interface ScheduleContextProps {
   schedule: DaySchedule[];

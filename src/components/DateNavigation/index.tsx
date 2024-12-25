@@ -1,8 +1,8 @@
 import { addDays } from "date-fns";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useContext } from "react";
-import ScheduleContext from "../context/ScheduleContext";
-import { formatWeekday } from "../utils/formatWeekday";
+import ScheduleContext from "../../context/Schedule/ScheduleContext";
+import { formatWeekday } from "../../utils/formatWeekday";
 
 const DateNavigation = () => {
   const { schedule, updateSchedule, selectedDate } =

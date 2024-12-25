@@ -2,8 +2,8 @@ import { render, renderHook, within } from "@testing-library/react";
 import { useContext } from "react";
 import { describe, expect, test } from "vitest";
 import { TimeSlots } from "../components/TimeSlots";
-import ScheduleContext from "../context/ScheduleContext";
-import ScheduleProvider from "../context/ScheduleProvider";
+import ScheduleContext from "../context/Schedule/ScheduleContext";
+import ScheduleProvider from "../context/Schedule/ScheduleProvider";
 import { DaySchedule } from "../types";
 
 const initialSchedule: DaySchedule[] = [
